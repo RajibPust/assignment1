@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  background-image: url("images/banner/banner1.png");
+  /* background-repeat: no-repeat;
+    background-size: auto;
+    height: 808px;
+    object-fit: cover;
+    background-color: #e7e3e3; */
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+.header-content {
+  text-align: right;
+  padding: 216px 230px;
+}
+
+.header-content .header-description {
+  padding-left: 876px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
+.header-content .header-title {
+  padding-left: 845px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #151414;
+}
+
+.header-button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18.5px 35.5px;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+  margin-top: 32px;
+}
+
+/* main sectionb */
+
+.section-content {
+  display: flex;
+  gap: 63px;
+  padding-left: 230px;
+
+  /* background-color: #FD6E0A; */
+}
+
+.img-add {
+}
+
+.section-details {
+  /* margin-top: 500px; */
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-top: 300px;
+  margin-right: 723px;
+}
+
+.section-p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  padding-right: 690px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.section-list ul {
+  list-style: none;
+  /* content: "\2713"; */
+  
+}
+
+/* .green-tick {
+    color: green;
+    content: '\2713';
+  } */
+
+/* plan section */
+
+.my-plan {
+  margin-top: 135px;
+}
+
+.Plan-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+}
+
+
+.plan-container {
+  display: flex;
+  margin-left: 230px;
+  gap: 86px;
+  margin-right: 229px;
+  margin-bottom: 13px;
+  margin-top: 55.7px;
+}
+
+.plans .s-title {
+  font-weight: 700;
+  font-size: 30px;
+  /* line-height: 35px; */
+  /* text-align: center; */
+  color: #151414;
+}
+
+.plans .plan-descripyion {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  /* text-align: center; */
+  color: #737272;
+}
+
+/* Call Now */
+
+.call-now {
+ 
+  /* background-image: url(images/gradient2.png); */
+  width: 1140px;
+  height: 300px;
+  margin-left: 294px;
+  margin-top: 130px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("images/watch.png");
+  border-radius: 8px; 
+}
+
+.call-now-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-left: 64px;
+  padding-top: 59px;
+  padding-right: 500px;
+
+}
+
+.call-button {
+  width: 160px;
+  height: 64px;
+  margin-left: 64px;
+  margin-top: 59px;
+  color: #fd6e0a;
+  font-size: large;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  margin-top: 130px;
+  background-color: black;
+  color: white;
+  gap: 331px;
+  /* width: 1600px;
+  height: 577px; */
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.future {
+  margin-left: 236px;
+  margin-top: 130px;
+}
+
+.future-descripton {
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 226px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.footer .future-phone{
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-social{
+    margin-bottom: 130px;
+}
+
+.Subscribe {
+  margin-right: 226px;
+  margin-top: 130px;
+}
+
+.subscribe-buton{
+    margin-top: 16px;
+    color: #fd6e0a ;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 12.5px 25.5px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+.Subscribe .future-title{
+    margin-bottom: 26px;
+}
+input{
+    height:35px;
+    width: 100%;
+}
